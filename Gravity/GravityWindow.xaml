@@ -1,12 +1,11 @@
-﻿<Window x:Class="Gravity.MainWindow"
+﻿<Window x:Class="Gravity.GravityWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gravity"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="GravityWindow" Height="300" Width="300">
+
+    <Canvas x:Name="ScreenCanvas" Background="Black" HorizontalAlignment="Left" Height="313" VerticalAlignment="Top" Width="511"/>
 </Window>
